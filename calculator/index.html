@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+  <header><h1>Calculator</h1></header> 
+  <section>
+
+        <div class="calc">
+            <div class="mode dark"></div><div class="mode white"></div>
+
+                <input class="box" type="text" placeholder="0">
+                <div class="btn">
+                  <button onclick="select(this)" class="oprUP">/</button>
+                  <button onclick="select(this)" class="oprUP">%</button>
+                  <button onclick="clearr(this)" class="oprUP">c</button>
+                  <button onclick="select(this)">1</button>
+                  <button onclick="select(this)">2</button>
+                  <button onclick="select(this)">3</button>
+                  <button onclick="select(this)" class="opr">+</button>
+                  <button onclick="select(this)">4</button>
+                  <button onclick="select(this)">5</button>
+                  <button onclick="select(this)">6</button>
+                  <button onclick="select(this)" class="opr">-</button>
+                  <button onclick="select(this)">7</button>
+                  <button onclick="select(this)">8</button>
+                  <button onclick="select(this)">9</button>
+                  <button onclick="select(this)" class="opr">*</button>
+                  <button onclick="select(this)" >.</button>
+                  <button onclick="select(this)">0</button>
+                  <button onclick="equal(this)" class="oprEqu">=</button>
+                </div>
+            </div>
+            
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>
