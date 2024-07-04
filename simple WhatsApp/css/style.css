@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* scroll */
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: #858383;
+}
+::-webkit-scrollbar-thumb{
+    background: #0000006a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(31, 31, 31);
+    padding: 8px 1px 8px 8px;
+    align-items: center;
+    z-index: 2;
+}
+nav .logo {
+    color: aliceblue;
+}
+nav .logo i{
+    color: green;
+}
+nav .wendow i{
+    display: inline-block;
+    padding: 4px 16px;
+    color: aliceblue;
+    transition: .8s;
+    border: 1px solid rgb(36, 36, 36);
+    
+    /* background-color: rgb(30, 30, 30); */
+}
+nav .wendow i:hover {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(37, 35, 35);
+    
+}
+section .prof{
+    height: 93vh;
+    background-color: rgb(49, 49, 49);
+    width: 40px;
+    text-align: center;
+  
+}
+section > div {
+    display: inline-block;
+}
+.downAicon{
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+}
+section .prof i{
+    display: block;
+    color: aliceblue;
+    padding: 10px 4px;
+    
+}
+.downAicon img {
+    padding-top:3px ;
+    width: 30px;
+    height: auto;
+    border-radius: 50%;
+}
+.chats {
+    width: 450px;
+    background-color: #2b2b2b;
+    height: 86vh;
+    position: absolute;
+    top: 0px;
+    padding: 7vh 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.message {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2b2b2b;
+    align-items: center;
+    /* border :.5px solid black; */
+    transition: .4; 
+}
+.message:hover{
+    background-color: #525151;
+    border-radius: 10px;
+}
+.person {
+    padding: 5px;
+}
+.person img {
+ width: 50px;
+ border-radius: 50%;
+}
+.person div {
+    display: inline-block;
+    padding: 4px;
+    color: aliceblue;
+}
+.chats .time {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    color: green;
+}
+.time .date{
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+
+}
+.chats .time .nummess {
+    width: 17px;
+    height: 17px;
+    background-color: green;
+    color: aliceblue;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+
+}
+.frinds {
+    position: absolute;
+    right: 0px;
+    width: 62%;
+    height: 93vh;
+    background-color: #212121;
+    z-index: -1;
+}
+.personChat {
+    padding: 2px 30px;
+    background-color: #2e2e2e;
+   border-radius: 0 0 10px 10px;
+}
+.messageChat{
+    padding: 6px 10px;
+}
+.messageChat div {
+    color: aliceblue;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: rgb(23, 67, 50);
+    
+    font-size: 18px;
+    display: block;
+}
+.messageChat .fm {
+    border-radius: 30px 30px 30px 0;
+    position: absolute;
+    left: 50px;
+}.messageChat .mm {
+    border-radius: 30px 30px 0 30px ;
+    position: absolute;
+    right: 50px;
+}
+.messageBox {
+   position: absolute;
+   bottom: 5px;
+   width: 100%;
+   text-align: center;
+}
+.messageBox input{
+    width: 400px;
+    width: 91%;
+    height: 30px;
+    padding: 1px 5px;
+    background-color: #3e3d3d;
+    color: aliceblue;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+.messageBox i{
+    display: inline-block;
+   color: aliceblue;
+    background-color:rgb(23, 67, 50);
+    border-radius:50% ;
+    padding: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3d3c3c;
+    color: aliceblue;
+    align-items: center;
+    padding: 30px 15px;
+    border-radius:0 0 15px 15px;
+}
